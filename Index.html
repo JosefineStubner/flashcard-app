@@ -6,58 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-
-  
 </head>
 <body>
-
-
+ 
+ 
   <main id="sida">
-    <form>
-      <br>
-      <br>
-      <div class="search-container">
-  
+ 
+<form>
   <label for="framsida">Innehåll framsida:</label>
-  
-<input id="framsida" type="text"> 
-
-
+<input id="front" type="text" placeholder="En text på Framsidan">
+ 
 <label for="framsida">Innehåll baksida:</label>
-<input id="baksida" type="text"> 
-
-
-
-</div>
+<input id="bak" type="text" placeholder="En text på Baksidan">
+ 
 <br>
-<button class="myBtn">spara</button>
-
+ 
+<input id="sparaknapp" type="submit" class="myBtn">
+ 
+ 
+<p>Lista på Flashcards</p>
+ 
 <div id="container">
-  <div id="card">
-    
-    <input type="submit" class="myBtn" value="Submit">
-</div>
-
+ 
 <div id="card">
-  <input type="submit" class="myBtn" value="Submit">
+  <div id="framsida"></div>
+  <div id="baksida"></div>
+  <button id="switch" class="myBtn">Byt sida</button>
+</div>
+ 
+<div id="card">
+  <div id="framsida"></div>
+  <div id="baksida"></div>
+  <button id="switch" class="myBtn">Byt sida</button>
 </div>
 
 <div id ="card">
-  
-  <input type="submit" class="myBtn" value="Submit">
-</div>
-
-<div id="card">
-  <input type="submit" class="myBtn" value="Submit">
-</div>
-
-</div>
-
-
-</form>
-
-</main>
-
-  <script type="text/javascript" src="main.js"></script>
-</body>
-</html>
+    <div id="framsida"></div>
+    <div id="baksida"></div>
+    <button id="switch" class="myBtn">Byt sida</button>
+  </div>
+   
+  <div id="card">
+    <div id="framsida"></div>
+    <div id="baksida"></div>
+    <button id="switch" class="myBtn">Byt sida</button>
+  </div>
+   
+  </div>
+   
+   
+  </form>
+   
+  </main>
+   
+  <script type="text/javascript" src="form.js"></script>
+  </body>
+  </html>
