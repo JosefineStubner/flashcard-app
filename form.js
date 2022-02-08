@@ -11,6 +11,7 @@ sparaKnapp.addEventListener('click', function(e){ //lyssnar på click och callba
 
     framsidaKort.innerHTML = frontText.value; //skrier/sätter ut inputen med innerhtml av framsidans value
     baksidaKort.innerHTML = bakText.value; // skriver/sätter ut inputen med innerhtml av baksidans value
+    baksidaKort.style.display = "none";
 });
 
 console.log("hej");
