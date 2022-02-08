@@ -1,21 +1,67 @@
 #card {
 height: 200px;
   width:200px;
-  border: 1px solid black;
+  border: 3px solid #777;
   margin:20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: .25rem;
+  background-color: white;
   
 }
 
-#container {
+
+
+ #container {
   display:flex;
  width: 500px;
  flex-wrap: wrap;
- justify-content: space-around;
+ margin-left: 50px;
+ 
 }
+ 
+
 
 #sida {
   display:flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid #777;
+  border-radius: .25rem;
+  width:50%;
+  background-color: antiquewhite;
+  
+
+  
+  
+
  
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://media.istockphoto.com/photos/british-shorthair-cat-on-red-desk-picture-id1308939962?b=1&k=20&m=1308939962&s=170667a&w=0&h=Kc_m38jPHF6ahmVA4J2mDUvmRHiG3bpt5TvvhI29aQM=);
+  background-size: 35%;
+}
+
+
+
+.myBtn {
+ 
+    background-color:#FF2447; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+  }
+
+
+
+
+
