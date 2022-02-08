@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ 
+  <main id="sida">
+ 
+<form>
+  <label for="framsida">Innehåll framsida:</label>
+<input id="front" type="text" placeholder="En text på Framsidan">
+ 
+<label for="baksida">Innehåll baksida:</label>
+<input id="bak" type="text" placeholder="En text på Baksidan">
+ 
+<br>
+ 
+<input id="sparaknapp" type="submit" class="myBtn">
+ 
+ 
+<p>Lista på Flashcards</p>
+ 
+<div id="container">
+ 
+<div id="card">
+  <div id="framsida"></div>
+  <div id="baksida"></div>
+  <button id="switch" class="myBtn">Byt sida</button>
+</div>
+ 
+<div id="card">
+  <div id="framsida"></div>
+  <div id="baksida"></div>
+  <button id="switch" class="myBtn">Byt sida</button>
+</div>
 
-
-    <main id="sida">
-
-    <form>
-      <label for="framsida">Innehåll framsida:</label>
-      <input id="framsida" type="text"> 
-
-      <label for="framsida">Innehåll baksida:</label>
-      <input id="baksida" type="text"> 
-
-      <br>
-
-      <button type="submit" id="submitBtn">spara</button>
-
-
-      <p>Lista på Flashcards</p>
-
-      <div id="container">
-
-        <div id="card">
-          <button>spara</button>
-        </div>
-
-        <div id="card">
-          <button>spara</button>
-        </div>
-
-        <div id ="card">
-          <button>spara</button>
-        </div>
-
-        <div id="card">
-          <button>spara</button>
-        </div>
-
-      </div>
-
-
-    </form>
-
+<div id ="card">
+    <div id="framsida"></div>
+    <div id="baksida"></div>
+    <button id="switch" class="myBtn">Byt sida</button>
+  </div>
+   
+  <div id="card">
+    <div id="framsida"></div>
+    <div id="baksida"></div>
+    <button id="switch" class="myBtn">Byt sida</button>
+  </div>
+   
+  </div>
+   
+   
+  </form>
+   
   </main>
-
+   
+  <script type="text/javascript" src="form.js"></script>
   <script type="text/javascript" src="localstorage.js"></script>
   </body>
-</html>
+  </html>

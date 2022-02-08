@@ -1,12 +1,11 @@
-const frontCard = document.querySelector("#framsida");
-const backCard = document.querySelector("#baksida");
-const submitBtn = document.querySelector("#submitBtn");
+const frontCard = document.querySelector("#front");
+const backCard = document.querySelector("#bak");
+const submitBtn = document.querySelector("#sparaknapp");
 
 const cardArr = () => {
   if(frontCard.value === "" || backCard.value === "") {
     alert("Please complete the card.")
   } else {
-
     const cards = (() => {
       const cardValue = localStorage.getItem('card');
       return cardValue === null
